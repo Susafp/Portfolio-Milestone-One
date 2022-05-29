@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Susana-Pato">
+    <meta name="keywords" content="portfolio,stained glass,artwork">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/da9b9f74c7.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Galery</title>
+</head>
+<body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Uglyducks<img src="images/logo.jpg" alt="" class="rounded-pill">Design</a>
+      <!-- menu -->
+      <div class="navbar-button"> 
+        <button class="navbar-toggler" type="button" id="buttonTitle" title="Title" data-toggle="collapse" data-target="#mainNavbar">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.htm">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>    
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Left Panel-->
+  <div class="container-fluid pt-5 text-center">
+    <h2 class="galery-header pt-5">Gallery</h2>
+    <div class="row mt-4 align-items-midle">
+        <div class="col-sm-3 mt-4 align-items-center">
+          <ul class="services text-left pt-4 ">
+            <li>Unique Template Designs</li>
+            <li>Tiffany Technique</li>
+            <li>Traditional Glass Painting</li>
+            <li>Faux Glass Painting on Perspex</li>
+            <li>Stained Glass Restoration</li>
+          </ul>
+          <!--<p class="text-white pt-3">More About Me<br>
+            <a href="about.html" type="button" class="btn sm-2">Here</a>
+          </p>-->
+        </div>
+        <!-- central panel -->
+        <div class="col-sm-6">
+          <div id="my-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="1"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+            <li data-target="#my-carousel" data-slide-to="3"></li>
+            <li data-target="#my-carousel" data-slide-to="4"></li>
+            <li data-target="#my-carousel" data-slide-to="5"></li>
+            <li data-target="#my-carousel" data-slide-to="6"></li>
+            <li data-target="#my-carousel" data-slide-to="7"></li>
+            <li data-target="#my-carousel" data-slide-to="8"></li>
+            </ol>
+  
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner mb-4" title="carousel-items" role="listbox">
+            
+              <div class="carousel-item active" role="option"> 
+                <!--as its parent has "role=listbox" I had to add the "role=option" 
+                to the child to "explain/link" their roles/relation-->
+                <!-- https://accessibilityinsights.io/info-examples/web/aria-required-children/-->
+                <img src="images/template.jpg"
+                  alt="Template Design"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Template Design</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/totem.jpg"
+                  alt="Copper Foiling Technique"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Copper Foiling Technique</div>
+              </div>
+  
+              <div class="carousel-item" role="option">
+                <img src="images/panel1.jpg"
+                  alt="Comissioned Work"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Comissioned Projects</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/arsenal.jpg"
+                  alt="Stained Glass Panels"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Special Requests</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/painting.jpg"
+                  alt="Painting in Perspex"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Faux Stained Glass Painting - Perspex</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/lizard.jpg"
+                  alt="Stained Glass Panels"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Unique UglyDucks Designs</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/biggles.jpg"
+                  alt="Costumized Panel"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Your Pet - Customised Panel</div>
+              </div>
+  
+              <div class="carousel-item" role="option">
+                <img src="images/charm.jpg"
+                  alt="House Decor"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">House Decor</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/lily.jpg"
+                  alt="Window Decor"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Window Decor</div>
+              </div>
+
+              <div class="carousel-item" role="option">
+                <img src="images/christmas.jpg"
+                  alt="Christmas Decor"
+                  class="d-block w-100">
+                <div class="carousel-caption d-block">Christmas Decor</div>
+              </div>
+            </div>
+  
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- right panel -->
+        <div class="col-sm-3 mt-4 align-items-center">
+          <p class="shop-link pt-4">Visit UglyDucksDesign Shop on: <br>
+            <a href="https://www.instagram.com/" aria-label="instagram">Instagram</p>
+        </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="container-fluid ">
+    <div class="row-6 text-right">
+      <div class="col ">
+        <a href="https://facebook.com/" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="row-6">
+      <div class="col text-center">
+        <p>By SPato &copy; 2022  | Created for Learning Purposes</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!--JS BOOTSRAP BUNDLE WITH POPPER-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+  
+
+
+  
