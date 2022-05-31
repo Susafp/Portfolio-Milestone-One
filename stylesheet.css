@@ -232,7 +232,6 @@ strong{
 
 .form-control:hover{
     border: 3px solid greenyellow;
-    box-shadow: rgba(172, 255, 47, 0.415) 20px rgba(172, 255, 47, 0.944); /* not working*/
 }
 
 .btn-info{ /* submit button */
