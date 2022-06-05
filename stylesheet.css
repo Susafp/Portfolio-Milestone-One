@@ -261,8 +261,8 @@ footer p{
 }
 footer a{
     color: greenyellow;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 28px;
+    letter-spacing: 5px;
 }
 
 footer a:hover{
