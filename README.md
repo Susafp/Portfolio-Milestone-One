@@ -3,6 +3,8 @@ My Portfolio-Milestone Project One
 
 This is a Portfolio that I´ve created as my first project of the Frontend Developer Course. My Portfolio works as a showroom for my Art work and links it to the brand "UglyducksDesign" which is at the moment a fictional online shop. Each page contains social media links that users can access to get to know more about my work.
 
+![responsive design picture](images/responsive-design.png)
+
 # UX
 This webpage is for current and potential clients interested in getting to know me better and learn more about Stained Glass, were they can find a brief explanation of the technique and its origins.
 I've chosen to style my website in a way that would really bring out the colours of the art work exhibited in the pictures. A black background does exactly that, pulls the users attention to the bright and vivid colours of the Stained Glass and at the same time it allows for some eye confort to browse through each pages different sections.

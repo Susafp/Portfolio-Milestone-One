@@ -7,7 +7,7 @@ html{
 
 body{
     background-color: black;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.821);
     margin: 0;
     padding: 0;
 }
@@ -152,10 +152,6 @@ strong{
     height: 5px;
 }
 
-/*.carousel-indicators li:active{
-    background-color: greenyellow;  
-}*/
-
 .carousel-control-prev{
     background-color: rgba(0, 0, 0, 0.881);
 }
@@ -256,8 +252,8 @@ footer{
 }
 
 footer p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
 }
 footer a{
     color: greenyellow;
