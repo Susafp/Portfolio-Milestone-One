@@ -12,10 +12,10 @@ Colour pallet: Green #008000, Greenyellow #adff2f, Black #000000 and #ffffff99 f
 As this is a website deeply linked to a hand made craft I´ve used "Dancing Script" font from Google Fonts to style some characters in the text and the signature in "About" page, giving it a more personal, artisan handwriting kind of look.
 
 ## User Stories
-As a potential client I want to know more about the artist and her story so that I can feel more confident and trust in her skills.
-As the designer I want clients to be able to match their expectations to my work and be abble to easily contact me and feel free to enquire about potencial projects.
-As Stained Glass fan I want to browse through the images and find inspiration for a piece that would look amazing in my house.
-As an event organiser I want to know more about the designer and her work so that I can decide whether to invite her to take part in an upcoming Crafts Fair.
+- As a potential client I want to know more about the artist and her story so that I can feel more confident and trust in her skills.
+- As the designer I want clients to be able to match their expectations to my work and be abble to easily contact me and feel free to enquire about potencial projects.
+- As Stained Glass fan I want to browse through the images and find inspiration for a piece that would look amazing in my house.
+- As an event organiser I want to know more about the designer and her work so that I can decide whether to invite her to take part in an upcoming Crafts Fair.
 
 ## Wireframes
 
