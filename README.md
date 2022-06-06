@@ -1,22 +1,23 @@
 # My Portfolio-Milestone One
-My Portfolio-Milestone One
 
 This is a Portfolio that I´ve created as my first project of the Frontend Developer Course. My Portfolio works as a showroom for my Art work and links it to the brand "UglyducksDesign" which is at the moment a fictional online shop. Each page contains social media links that users can access to get to know more about my work.
+This webpage is also for current and potential clients interested in getting to know me better and learn more about Stained Glass, were they can find a brief explanation of the technique and its origins.
 
 ![responsive design picture](images/responsive-web-devises.png)
 
-# UX
-This webpage is for current and potential clients interested in getting to know me better and learn more about Stained Glass, were they can find a brief explanation of the technique and its origins.
+## UX
+
 I've chosen to style my website in a way that would really bring out the colours of the art work exhibited in the pictures. A black background does exactly that, pulls the users attention to Stained Glass bright and vivid colours. I´ve chosen to avoid bright white coloured text to allow for more eye confort and increased focus when browsing through different sections.
 Colour pallet: Green #008000, Greenyellow #adff2f, Black #000000 and #ffffff99 for the text.
+As this is a website deeply linked to a hand made craft I´ve used "Dancing Script" font from Google Fonts to style some characters in the text and the signature in "About" page, giving it a more personal, artisan handwriting kind of look.
 
-# User Stories
+## User Stories
 As a potential client I want to know more about the artist and her story so that I can feel more confident and trust in her skills.
 As the designer I want clients to be able to match their expectations to my work and be abble to easily contact me and feel free to enquire about potencial projects.
 As Stained Glass fan I want to browse through the images and find inspiration for a piece that would look amazing in my house.
 As an event organiser I want to know more about the designer and her work so that I can decide whether to invite her to take part in an upcoming Crafts Fair.
 
-# Wireframes
+## Wireframes
 
 My wireframes helped as an inicial plan of how I would like my Portfolio to look like in terms of
 its structure, I have choosen not too include to much detail, instead I have focused more on the importance of building a responsive website. 
@@ -39,25 +40,25 @@ I drew my wireframes using Balsamiq and the links to the files are below:
 Only visible in screen sizes under 576px.
 - **Footer with Social media links** - These links are located in the Footer of all my website pages (Facebook, Instagram and LinkedIn). Hover feature that changes the colour of the icons, it makes it easy for users to find and access different relevant social media pages and as it opens on a different tab it avoids loosing track of the page they were inicially. 
 
-### All Pages (exluding index.html)
+### All Pages exluding index.html
 
 - **Navbar clickable logo** - With hover feature that changes the link colour and size. Users can go back to home page from all the other pages, this is especially useful in smaller screens when the navigation links are hidden under the hamburger button.
-### index.html
+### Index Page
 
 - **Welcome text** - Short text as a welcome message, together with the vivid background image it gives the visitors an idea of what the wepage is about.
 - **'Come On In!' call to action button** - This is a button which main goal is to "tempt" users curiosity,
 compelling them to engage with the webpage. Users are able to click, and it will take them to visit the gallery page.
-### gallery.html
+### Gallery Page
 
 - **Unordered list** - A list of the services provided that works as well as a side discription for the carousel images.
 - **Carousel with indicators and controls** - The carousel contains ten pictures of Template designing, Painting and Stained Glass finished projects, which slide automatically. Alternatively, users can use the controls to manually slide forwards or backwards through the images. The indicators allow users to see which image of the series they are viewing.
-- **Social media link** - A link to the Instagram shop. The link is functional but in reality "UglyducksDesign Shop" its not an active shop at the moment.
-### about.html
+- **Social media link** - A link to the Instagram shop. The link is functional but in reality "UglyducksDesign Shop" its not an active shop.
+### About Page
 
 - **My history** - A breaf text about how I got into Stained Glass with a relevant picture on the right side of the page.
 - **Technique history** - A breaf text about the technique used.
-- **'Here!' call to action button** - Users are able to click, and it will take them to visit the gallery page.This is a button which main goal is to keep the users attention after reading the texts by inviting them back to the gallery were they can look at the images and establish a relation between the "theory" - what they have read, and "practice" - the finished work. 
-### contact.html
+- **'Here!' call to action button** - Users are able to click, and it will take them to visit the gallery page.This is a button which main goal is to keep the users attention after reading the texts by inviting them back to the gallery were they can look at the images and establish a relation between the "theory" - what they have read, and the "practice" - the finished work. 
+### Contact Page
 
 - **Contact form with submit button** - Allows users to put their questions, enquire about the services offered or potentially discuss a project. The form requires the users to fill in their details in all three boxes otherwise it will not submit their message. 
 Initially while editing their details, users would have the form fields with a black background and white text. After receiving valuable feedback I´ve decided to change this for a white background and black text because the previous version was too dark and made it difficult for the users to see.
@@ -107,7 +108,7 @@ using [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to 
 
 I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 
-### Interesting Bugs or Problems
+### Bugs or Problems
 
 - **Missing closing tags** - I was missing one closing tag in the body content of two different pages, *Gallery* and *About* pages. 
 - **"Come On In" button on *Index* page** - When running the code trough "W3C HTML Validator tool" it would come up as having a bad value "button" for attribute "type" on element "a". Once I removed the attribute *type="button"* the issue was resolved.
@@ -124,8 +125,8 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 5. Created a new repository in GitHub called 'Portfolio-Milestone-Project-One'.
 6. Copied the below code from GitHub into the terminal window in my Visual Studio Code workspace:
 
-    ```git remote add origin https://github.com/Susafp/Portfolio-Milestone-One.git```
-    ```git push -u origin master```
+```git remote add origin https://github.com/Susafp/Portfolio-Milestone-One.git```
+```git push -u origin master```
 
 7. Entered my GitHub username and password to push the files from Git to GitHub.
 8. Went into 'Settings' on my repository page in GitHub.
