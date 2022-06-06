@@ -104,9 +104,9 @@ I´ve mainly used Microsoft Edge´s Development tools to constantly test each ch
 
 To test my whole website, I went through each page and tested it feature by feature, used:
 
-[W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code, and
+- [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code, and
 
-[W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
+- [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 
 ### Bugs or Problems
 
