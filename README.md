@@ -102,11 +102,10 @@ I used my user stories and documented each of the steps that each user would nee
 I´ve mainly used Microsoft Edge´s Development tools to constantly test each change that I made to my website and to ensure that it appeared in the desired way on different screen sizes (mobile, tablet and desktop). I also tested my website with Google Chrome and Mozilla Firefox.
 ### HTML and CSS Validation
 
-To test my whole website, I went through each page and tested it feature by feature, 
+To test my whole website, I went through each page and tested it feature by feature, used:
+[W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code, and
 
-using [W3C HTML Validator tool](https://validator.w3.org/#validate_by_input) to validate my HTML code, and
-
-I used the [W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
+[W3C CSS Validator tool](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code.
 
 ### Bugs or Problems
 
