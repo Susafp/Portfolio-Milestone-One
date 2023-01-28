@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p, a{
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 /* NAVBAR */
@@ -152,9 +152,8 @@ strong{
 /* GALERY PAGE */
 
 /* left panel */
-
+/*
 .col-sm-3{
-    align-items: center;
     background-color: black;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -163,7 +162,7 @@ strong{
     background-color: black;
     color: rgba(255, 255, 255, 0.6);
 }
-
+*/
 /* central panel */
 
 .main-container {
