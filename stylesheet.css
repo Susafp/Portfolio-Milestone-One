@@ -64,6 +64,15 @@ p, a{
     width:40px;
 }
 
+@media (max-device-width : 576px) {
+    .rounded-pill{
+        width:25px;
+    } 
+    .navbar-brand{
+        font-size: 10px;
+    }      
+}
+
 /* toggler: first remove style:  */
 /* https://youtu.be/vJ85fm4m7lw */
 .navbar-toggler{
