@@ -3,7 +3,7 @@
 This is a Portfolio that I´ve created as my first project of the Frontend Developer Course. My Portfolio works as a showroom for my Art work and links it to the brand "UglyducksDesign" which is at the moment a fictional online shop. Each page contains social media links that users can access to get to know more about my work.
 This webpage is also for current and potential clients interested in getting to know me better and learn more about Stained Glass, were they can find a brief explanation of the technique and its origins.
 
-![responsive design picture](images/responsive-web-devises.png)
+![responsive design picture](images/preview.png)
 
 ## UX
 
